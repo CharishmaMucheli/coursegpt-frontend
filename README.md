@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CourseGPT - AI-Powered Course Authoring Platform
 
-## Getting Started
+CourseGPT is an advanced web application that provides educators and course creators with the tools to efficiently design, organize, and manage courses. This platform allows users to create educational content by organizing lessons and modules in an intuitive and user-friendly interface. The application features the ability to generate lessons, add interactive content, and organize materials for course development.
 
-First, run the development server:
+> **Note**: Currently, this version uses mock data for lesson generation and does not integrate with OpenAI's API.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Module Organization**: Add and manage educational modules with ease.
+- **Lesson Creation**: Create lessons within modules and add sections for structured content delivery.
+- **Interactive Editor**: An intuitive editor that enables the addition of sections with titles and content.
+- **Frontend-Only Application**: Built with Next.js, leveraging the App Router for simple routing and state management.
+- **Temporary Data Storage**: Data is temporarily saved in the browser’s LocalStorage (mocked data) for easy access and testing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project follows a clean and organized structure as follows:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
